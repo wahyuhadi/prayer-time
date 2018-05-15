@@ -42,7 +42,7 @@ for calculate time based on [http://praytimes.org/calculation](http://praytimes.
 	
 2. NPM install
 		
-		cd praytimes
+		cd prayer-time
 		npm install
 		
 3. Start 
