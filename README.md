@@ -50,7 +50,7 @@ for calculate time based on [http://praytimes.org/calculation](http://praytimes.
 		npm start
 		
 		
-## API ENDPOINT
+## API ENDPOINT by Date Time / Day
 
 		localhost:3000/v1/time/?lat=-7.9174&lng=107.61912280000001 
 		// or ...
@@ -84,6 +84,461 @@ defualt timezone is 7 'ASIA/JAKARTA and default methode is MWL  (Muslim World Le
 	}
 		
 
+
+
+## ENDPOINT by MONTH and YEARS
+		
+		localhost:3000/v1/time/5/2018?lat=6.917463899999999&lng=107.61912280000001&timezone=7&date=2018-05-15
+		
+		
+## RESPONSE API
+
+	{
+    "options": {
+        "latitude": "6.917463899999999",
+        "longitude": "107.61912280000001",
+        "timezone": "7",
+        "datetime": "2018-05-15",
+        "methode": "MWL"
+    },
+    "month": [
+			{
+			    "date": "2018-5-1T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-2T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-3T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-4T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-5T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-6T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-7T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-8T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-9T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-10T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-11T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-12T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-13T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-14T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-15T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-16T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-17T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-18T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-19T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-20T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-21T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-22T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-23T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-24T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-25T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-26T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-27T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-28T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-29T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-30T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			},
+			{
+			    "date": "2018-5-31T17:44:08.865Z",
+			    "times": {
+				"imsak": "04:10",
+				"fajr": "04:20",
+				"sunrise": "05:36",
+				"dhuhr": "11:26",
+				"asr": "14:47",
+				"sunset": "17:17",
+				"maghrib": "17:17",
+				"isha": "18:29",
+				"midnight": "23:26"
+			    }
+			}
+		]
+	}
+	
 
         
         
