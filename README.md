@@ -38,7 +38,7 @@ for calculate time based on [http://praytimes.org/calculation](http://praytimes.
 
 1. git clone 
 
-		git clone 
+		git clone https://github.com/wahyuhadi/prayer-time.git
 	
 2. NPM install
 		
