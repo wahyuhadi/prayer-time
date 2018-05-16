@@ -88,7 +88,7 @@ defualt timezone is 7 'ASIA/JAKARTA and default methode is MWL  (Muslim World Le
 
 ## ENDPOINT by MONTH and YEARS
 		
-		localhost:3000/v1/time/5/2018?lat=6.917463899999999&lng=107.61912280000001&timezone=7&date=2018-05-15
+		localhost:3000/v1/time/5/2018?lat=6.917463899999999&lng=107.61912280000001
 		
 		
 ## RESPONSE API
@@ -539,7 +539,10 @@ defualt timezone is 7 'ASIA/JAKARTA and default methode is MWL  (Muslim World Le
 		]
 	}
 	
+## Contact
 
+Rahmat Wahyu Hadi | hrahmatwahyu@gmail.com 
+Telegram : @rwahyu
         
         
      
