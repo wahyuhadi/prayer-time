@@ -51,6 +51,9 @@ router.get('/:month/:years', function(req, res, next) {
     let getTotalDate = new Date(years ,month,0).getDate();
     let day = []
     for(var i=1; j=getTotalDate, i<=j; i++){
+        if (i < 10 ) {
+            i = '0'+i
+        }
         let dateTemp = years+'-'+month+'-'+i // T17:44:08.865Z default time
         day.push(dateTemp)
     }
